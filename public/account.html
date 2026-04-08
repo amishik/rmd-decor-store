@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMD decor | Кабинет</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">RMD decor</a>
+        <nav class="nav">
+          <a href="/">Главная</a>
+          <a href="/catalog">Каталог</a>
+          <a href="/cart">Корзина <span class="cart-badge" id="cart-count">0</span></a>
+          <a class="active" href="/account">Кабинет</a>
+          <a href="/orders-history">История заказов</a>
+          <a href="/admin-login">Админ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Личный кабинет</p>
+            <h1>Профиль и история заказов</h1>
+          </div>
+        </div>
+
+        <div class="account-layout">
+          <section class="profile-card">
+            <h2>Мои данные</h2>
+            <form class="checkout-form" id="profile-form" style="padding: 0; border: 0; box-shadow: none; background: transparent;">
+              <div class="form-grid">
+                <label>
+                  <span>ФИО</span>
+                  <input type="text" id="profile-full-name" required />
+                </label>
+                <label>
+                  <span>Email</span>
+                  <input type="email" id="profile-email" required />
+                </label>
+                <label>
+                  <span>Телефон</span>
+                  <input type="tel" id="profile-phone" required />
+                </label>
+                <label>
+                  <span>Город</span>
+                  <input type="text" id="profile-city" required />
+                </label>
+                <label class="full-span">
+                  <span>Адрес</span>
+                  <input type="text" id="profile-street-address" required />
+                </label>
+              </div>
+              <button class="button button-primary" type="submit">Сохранить изменения</button>
+              <p class="form-message" id="profile-message"></p>
+            </form>
+          </section>
+
+          <section class="orders-card">
+            <div class="section-heading" style="margin-bottom: 18px;">
+              <div>
+                <h2>История заказов</h2>
+              </div>
+              <a class="text-link" href="/orders-history">Перейти</a>
+            </div>
+            <div id="orders-list">
+              <p>Загрузка заказов...</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>RMD decor</h3>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/account.js"></script>
+  </body>
+</html>

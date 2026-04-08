@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMD decor | Панель администратора</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">RMD decor</a>
+        <nav class="nav">
+          <a href="/">Главная</a>
+          <a href="/catalog">Каталог</a>
+          <a href="/account">Кабинет</a>
+          <a class="active" href="/admin">Админ</a>
+          <a href="/sales-stats">Статистика продаж</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Панель продавца</p>
+            <h1>Заказы пользователей</h1>
+          </div>
+          <div class="inline-actions">
+            <a class="button button-secondary" href="/sales-stats">Открыть статистику продаж</a>
+            <button class="button button-secondary" id="admin-logout" type="button">Выйти</button>
+          </div>
+        </div>
+
+        <section class="section-muted" style="padding: 28px; border-radius: 32px;">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Все заказы</p>
+              <h2>История пользователей</h2>
+            </div>
+          </div>
+          <div id="admin-orders-list">
+            <div class="empty-state">Загрузка заказов...</div>
+          </div>
+        </section>
+
+        <section class="section-muted" style="padding: 28px; border-radius: 32px; margin-top: 22px;">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Лог посещений</p>
+              <h2>Последние переходы по сайту</h2>
+            </div>
+          </div>
+          <div id="visit-log-list">
+            <div class="empty-state">Загрузка лога посещений...</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>RMD decor</h3>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/admin.js"></script>
+  </body>
+</html>

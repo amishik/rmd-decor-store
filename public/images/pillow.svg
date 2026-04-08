@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960">
+  <rect width="800" height="960" fill="#f1e6d8"/>
+  <ellipse cx="400" cy="860" rx="220" ry="36" fill="#d8c1aa"/>
+  <rect x="210" y="240" width="380" height="380" rx="88" fill="#d8c3ab"/>
+  <rect x="240" y="270" width="320" height="320" rx="74" fill="#eadfce"/>
+  <path d="M250 430 C310 410 350 410 400 430 C450 450 490 450 550 430" fill="none" stroke="#d4c1ad" stroke-width="10" stroke-linecap="round"/>
+  <text x="400" y="760" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#5f4738">Подушка Linen</text>
+</svg>

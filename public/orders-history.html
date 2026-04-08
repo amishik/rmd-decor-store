@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMD decor | История заказов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">RMD decor</a>
+        <nav class="nav">
+          <a href="/">Главная</a>
+          <a href="/catalog">Каталог</a>
+          <a href="/cart">Корзина <span class="cart-badge" id="cart-count">0</span></a>
+          <a href="/account">Кабинет</a>
+          <a class="active" href="/orders-history">История заказов</a>
+          <a href="/admin-login">Админ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Заказы</p>
+            <h1>История заказов</h1>
+          </div>
+        </div>
+
+        <section class="orders-card">
+          <div id="history-orders-list">
+            <div class="empty-state">Загрузка истории заказов...</div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>RMD decor</h3>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/orders-history.js"></script>
+  </body>
+</html>

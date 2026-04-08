@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960">
+  <rect width="800" height="960" fill="#eee5dc"/>
+  <rect x="210" y="140" width="380" height="540" rx="120" fill="#b79267"/>
+  <rect x="235" y="165" width="330" height="490" rx="100" fill="#f8f5ef"/>
+  <rect x="260" y="190" width="280" height="440" rx="84" fill="#dfe7eb"/>
+  <path d="M310 260 C360 300 410 310 490 250" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="20" stroke-linecap="round"/>
+  <path d="M300 420 C350 470 430 495 510 450" fill="none" stroke="#c8d3d8" stroke-width="24" stroke-linecap="round"/>
+  <text x="400" y="770" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#5f4738">Зеркало Arc Brass</text>
+</svg>

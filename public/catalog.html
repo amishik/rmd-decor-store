@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMD decor | Каталог</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">RMD decor</a>
+        <nav class="nav">
+          <a href="/">Главная</a>
+          <a class="active" href="/catalog">Каталог</a>
+          <a href="/cart">Корзина <span class="cart-badge" id="cart-count">0</span></a>
+          <a href="/account">Кабинет</a>
+          <a href="/orders-history">Заказы</a>
+          <a href="/admin-login">Админ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Каталог</p>
+            <h1>Коллекция домашнего декора</h1>
+          </div>
+        </div>
+
+        <section class="filters-panel">
+          <div class="filters-grid">
+            <label>
+              <span>Поиск</span>
+              <input id="search-input" type="text" placeholder="Введите название" />
+            </label>
+            <label>
+              <span>Категория</span>
+              <select id="category-filter">
+                <option value="">Все категории</option>
+              </select>
+            </label>
+            <label>
+              <span>Цена от</span>
+              <input id="min-price" type="number" min="0" placeholder="0" />
+            </label>
+            <label>
+              <span>Цена до</span>
+              <input id="max-price" type="number" min="0" placeholder="200" />
+            </label>
+            <label>
+              <span>Сортировка</span>
+              <select id="sort-select">
+                <option value="">По умолчанию</option>
+                <option value="price-asc">Цена: по возрастанию</option>
+                <option value="price-desc">Цена: по убыванию</option>
+                <option value="name-asc">Название: А-Я</option>
+                <option value="name-desc">Название: Я-А</option>
+              </select>
+            </label>
+            <button class="button button-secondary" id="reset-filters" type="button">
+              Сбросить
+            </button>
+          </div>
+        </section>
+
+        <div class="results-row">
+          <p id="catalog-summary">Загрузка товаров...</p>
+        </div>
+
+        <section class="product-grid" id="catalog-grid"></section>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>RMD decor</h3>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/catalog.js"></script>
+  </body>
+</html>

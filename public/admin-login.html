@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMD decor | Вход администратора</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">RMD decor</a>
+        <nav class="nav">
+          <a href="/">Главная</a>
+          <a href="/catalog">Каталог</a>
+          <a href="/account">Кабинет</a>
+          <a href="/orders-history">Заказы</a>
+          <a class="active" href="/admin-login">Админ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="section">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Доступ продавца</p>
+            <h1>Вход администратора</h1>
+          </div>
+        </div>
+
+        <div class="checkout-layout">
+          <form class="checkout-form" id="admin-login-form">
+            <div class="form-grid">
+              <label>
+                <span>Логин</span>
+                <input type="text" id="admin-login" required />
+              </label>
+              <label>
+                <span>Пароль</span>
+                <input type="password" id="admin-password" required />
+              </label>
+            </div>
+            <button class="button button-primary" type="submit">Войти</button>
+            <p class="form-message" id="admin-login-message"></p>
+          </form>
+
+          <aside class="summary-card">
+            <h2>Демо-доступ</h2>
+            <div class="summary-row">
+              <span>Логин</span>
+              <span>admin</span>
+            </div>
+            <div class="summary-row">
+              <span>Пароль</span>
+              <span>admin123</span>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>RMD decor</h3>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/admin-login.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960">
+  <rect width="800" height="960" fill="#f1e8dc"/>
+  <ellipse cx="400" cy="860" rx="230" ry="34" fill="#d7c3ad"/>
+  <path d="M260 340 C260 250 540 250 540 340 L510 650 C502 725 298 725 290 650 Z" fill="#c8a885"/>
+  <path d="M280 355 C340 395 460 395 520 355" fill="none" stroke="#b18f68" stroke-width="16" stroke-linecap="round"/>
+  <path d="M300 300 C320 245 370 220 400 220 C430 220 480 245 500 300" fill="none" stroke="#b18f68" stroke-width="18" stroke-linecap="round"/>
+  <path d="M315 390 L485 390 M310 445 L490 445 M304 500 L496 500 M298 555 L502 555 M294 610 L506 610" stroke="#e6d1bb" stroke-width="10" stroke-linecap="round"/>
+  <text x="400" y="770" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#5f4738">Корзина Woven</text>
+</svg>

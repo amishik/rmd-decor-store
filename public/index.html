@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RMD decor | Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="/">RMD decor</a>
+        <nav class="nav">
+          <a class="active" href="/">Главная</a>
+          <a href="/catalog">Каталог</a>
+          <a href="/cart">Корзина <span class="cart-badge" id="cart-count">0</span></a>
+          <a href="/account">Кабинет</a>
+          <a href="/orders-history">Заказы</a>
+          <a href="/admin-login">Админ</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Домашний декор</p>
+            <h1>Спокойные акценты для современного интерьера.</h1>
+            <div class="hero-actions">
+              <a class="button button-primary" href="/catalog">Смотреть каталог</a>
+              <a class="button button-secondary" href="/account">Мой кабинет</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="hero-card-image">
+              <img
+                src="https://placehold.co/800x960/EDE2D3/5D4B3E?text=RMD+decor"
+                alt="Главный баннер магазина RMD decor"
+              />
+            </div>
+            <div class="hero-card-caption"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">О магазине</p>
+              <h2>Небольшая коллекция вещей, которые делают дом уютнее</h2>
+            </div>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>Удобный выбор</h3>
+              <p>Поиск, сортировка и фильтрация по категории и цене.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Понятные карточки</h3>
+              <p>Подробные описания, характеристики и быстрый переход к покупке.</p>
+            </article>
+            <article class="feature-card">
+              <h3>Полный сценарий</h3>
+              <p>От просмотра товаров до заказа и истории покупок.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-muted">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Подборка</p>
+              <h2>Популярные товары</h2>
+            </div>
+            <a class="text-link" href="/catalog">Перейти в каталог</a>
+          </div>
+          <div class="product-grid" id="featured-products"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <h3>RMD decor</h3>
+        </div>
+        <p></p>
+      </div>
+    </footer>
+
+    <script src="/js/api.js"></script>
+    <script src="/js/common.js"></script>
+    <script src="/js/home.js"></script>
+  </body>
+</html>

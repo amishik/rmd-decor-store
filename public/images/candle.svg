@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960">
+  <rect width="800" height="960" fill="#efe2d3"/>
+  <ellipse cx="400" cy="860" rx="210" ry="38" fill="#d7c1aa"/>
+  <rect x="275" y="260" width="250" height="420" rx="70" fill="#d5b79a"/>
+  <rect x="295" y="290" width="210" height="360" rx="54" fill="#f8f2ea"/>
+  <rect x="389" y="220" width="22" height="80" rx="10" fill="#6e4d3a"/>
+  <path d="M400 115 C445 170 442 220 400 240 C358 220 355 170 400 115 Z" fill="#f0b26b"/>
+  <path d="M400 145 C425 185 423 214 400 225 C377 214 375 185 400 145 Z" fill="#fff0b8"/>
+  <text x="400" y="770" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#5f4738">Свеча Sandstone</text>
+</svg>

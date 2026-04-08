@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 960">
+  <rect width="800" height="960" fill="#f4ebe1"/>
+  <ellipse cx="400" cy="860" rx="220" ry="36" fill="#ddc9b8"/>
+  <path d="M340 180 C360 210 345 260 305 360 C280 425 270 520 320 620 C352 684 448 684 480 620 C530 520 520 425 495 360 C455 260 440 210 460 180 Z" fill="#fbf7f2"/>
+  <path d="M340 230 C390 250 410 280 400 330 C390 380 346 410 320 455 C294 500 300 565 350 640" fill="none" stroke="#e3d2c3" stroke-width="20" stroke-linecap="round"/>
+  <path d="M460 230 C410 250 390 280 400 330 C410 380 454 410 480 455 C506 500 500 565 450 640" fill="none" stroke="#e3d2c3" stroke-width="20" stroke-linecap="round"/>
+  <text x="400" y="770" text-anchor="middle" font-family="Manrope, Arial, sans-serif" font-size="34" fill="#5f4738">Ваза Ivory Ripple</text>
+</svg>
